@@ -11,7 +11,7 @@ In a [post](https://vitalik.ca/general/2021/01/11/recovery.html) Vitalik discuss
 
 Social Recovery wallets are designed to mitigate against two scenarios: 
 1. Loss of the user's private key
-2/ Theft of the user's private key by a hacker
+2. Theft of the user's private key by a hacker
 
 The following diagram illustrates the flow of a social recovery wallet, where a single owner can sign transactions, and a set of guardians can change the owner (signing key).
 
