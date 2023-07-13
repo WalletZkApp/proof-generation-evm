@@ -20,7 +20,7 @@ The following diagram illustrates the flow of a social recovery wallet, where a 
 ## Our approach
 The previous approach involved storing the Ethereum address of the guardian in plain text on-chain. Our goal is to keep the guardian address private while still enabling social recovery functionality.
 
-To achieve this, we use the zero-knowledge addGuardians() function with Semaphore when a user adds a guardian. Semaphore is a solution that allows Ethereum users to prove their group membership and send signals without revealing their original identity.
+To achieve this, we use the zero-knowledge addGuardians() function with Semaphore when a user adds a guardian. Semaphore is a solution that allows Ethereum/zkEVM chain users to prove their group membership and send signals without revealing their original identity.
 
 
 # Overview
@@ -104,4 +104,4 @@ externalNullifier: the value that prevents double-signaling;
 proof: a Solidity-compatible Semaphore proof.
 
 Resources:
-- [semaphore](https://semaphore.appliedzkp.org/docs/introduction)
+- [Semaphore](https://semaphore.appliedzkp.org/docs/introduction)
